@@ -1,0 +1,75 @@
+{
+  "creds": {
+    "noiseKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "gHssB+gIWt9aZn90rzrZL1kX0ghNAdoPNUB/SvgbyHk="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "aO+uuPPH+5knSJnhbzdRRl3NF5xcRJZ/9v/m99zkbmc="
+      }
+    },
+    "signedIdentityKey": {
+      "private": {
+        "type": "Buffer",
+        "data": "4GAsOcr4c2bY6OOYAle/TcBYS50Ddqm6NSAL3oh3Pkg="
+      },
+      "public": {
+        "type": "Buffer",
+        "data": "adR7fmL8AqQn1BReCiIGnezyb5XfuHH4Gr0mf6WewRM="
+      }
+    },
+    "signedPreKey": {
+      "keyPair": {
+        "private": {
+          "type": "Buffer",
+          "data": "OFg3lzeop5DZqdbmmrv88ob54sJYoVZnHvmxoqwOTHc="
+        },
+        "public": {
+          "type": "Buffer",
+          "data": "GSFBUUvesNS2Qoo+oAbEoci7/4l3AqZTdFslpeCT1mQ="
+        }
+      },
+      "signature": {
+        "type": "Buffer",
+        "data": "hgKLi3i6SdfBc2YG08p384OHmMgym1Ji4LWfa5IMIli1T70B0x1g/QtFt38rXg772hdxGzCUETspEmW3CNHwBw=="
+      },
+      "keyId": 1
+    },
+    "registrationId": 61,
+    "advSecretKey": "3p2tjSczFTJRyhIeqheWLP96WD+fZeWnFErFy4COgDY=",
+    "nextPreKeyId": 1,
+    "firstUnuploadedPreKeyId": 1,
+    "serverHasPreKeys": false,
+    "account": {
+      "details": "CM+Egf0DEJnrpo0GGAM=",
+      "accountSignatureKey": "1heWHJ/jOvkbTynQnRKxfJ+1w9LKlS4R0Q7tUN2RJmA=",
+      "accountSignature": "6g/wZtxiV2fvgO3ziqFP/geY1+0qgWZkVlIFsMEuB0mywLSmSRS5czp84MNeeMVoehrfO9UFkMsuK86DjevQBg==",
+      "deviceSignature": "J32hzmZfTrzDM7ZgXdd7V1XAbE7hwcD6Ie7Ti9q1j2dEXIcsGrQknT2TSoG2Ok/08/86d3lt3bFDm5YhW3PVDQ=="
+    },
+    "me": {
+      "id": "15877941582:17@s.whatsapp.net",
+      "verifiedName": ""
+    },
+    "signalIdentities": [
+      {
+        "identifier": {
+          "name": "15877941582:17@s.whatsapp.net",
+          "deviceId": 0
+        },
+        "identifierKey": {
+          "type": "Buffer",
+          "data": "BdYXlhyf4zr5G08p0J0SsXyftcPSypUuEdEO7VDdkSZg"
+        }
+      }
+    ]
+  },
+  "keys": {
+    "preKeys": {},
+    "sessions": {},
+    "senderKeys": {},
+    "appStateSyncKeys": {},
+    "appStateVersions": {}
+  }
+}
