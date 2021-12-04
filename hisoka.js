@@ -83,8 +83,8 @@ module.exports = hisoka = async (hisoka, m, chatUpdate) => {
         }
 
         switch(command) {
-	    case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : https://ko-fi.com/cak_haho\n\n Dont Forget Donate')
+	    case 'group': {
+                m.reply('join : https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV')
             }
             break
             case 'chat': {
@@ -317,12 +317,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'owner': case 'creator': {
                 let vcard = 'BEGIN:VCARD\n' // metadata of the contact card
                     + 'VERSION:3.0\n' 
-                    + 'N:;Dika Ardnt.;;;'
-                    + 'FN:Dika Ardnt.\n' // full name
+                    + 'N:;supuna.;;;'
+                    + 'FN:supuna.\n' // full name
                     + 'ORG:Owner Bot;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6288292024190:+62 882-9202-4190\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=94753943957:+62\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                hisoka.sendMessage(m.chat, { contacts: { displayName: 'Dika Ardnt.', contacts: [{ vcard }] } }, { quoted: m })
+                hisoka.sendMessage(m.chat, { contacts: { displayName: 'supuna.', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
             case 'eval': {
@@ -350,7 +350,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let buttonMessage = {
                     image: {url: 'https://telegra.ph/file/bb15c9a53c4a0b68a99fa.jpg' },
                     caption: `Hello @${m.sender.split("@")[0]}`,
-                    footerText: 'Hi Im Hisoka Bot',
+                    footerText: 'Hi',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -416,13 +416,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             hydratedContentText: anu,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'BOTKINGDOM',
+                                    url: 'https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    displayText: 'Owner',
+                                    phoneNumber: '+94'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -431,12 +431,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Owner',
-                                    id: 'owner'
+                                    displayText: 'menu',
+                                    id: 'menu'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
+                                    displayText: 'hi',
                                     id: 'sc'
                                 }
                             }]
