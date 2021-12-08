@@ -76,14 +76,20 @@ async function startHisoka() {
     hisoka.public = true
 
     hisoka.ev.on('connection.update', async (update) => {
+
         const { connection, lastDisconnect } = update
+
         if (connection === 'close') {
-            lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut ? startHisoka() : console.log('Koneksi Terputus...')
+
+            lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut ? startKay() : console.log('Koneksi Terputus...')
+
         }
+
         console.log('Koneksi Terhubung...', update)
+
     })
 
-    hisoka.ev.on('creds.update', saveState)
+    kayla.ev.on('creds.update', saveState)
 
     // Add Other
 
